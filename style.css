@@ -11,17 +11,18 @@ header {
   width: 100%;
 }
 
-.header-container {
+/* Flexbox helper */
+.flex {
   display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+.header-container {
   justify-content: space-between;
 }
 
 body {
-  /* Center html page */
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   height: 100%;
 
@@ -29,6 +30,10 @@ body {
   background-color: rgb(29, 29, 29);
   color: white;
   margin: 40px 80px;
+}
+
+img {
+  margin-right: 15px;
 }
 
 /* sticky footer */
@@ -40,4 +45,8 @@ footer {
   background-color: rgb(17, 17, 17);
   text-align: center;
   padding: 20px;
+}
+
+p {
+  font-size: 16px;
 }
